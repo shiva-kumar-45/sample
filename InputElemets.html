@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Input Elements</title>
+        <style>
+            *{
+                padding-bottom: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="pwd" >Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <p>Working with radio buttons</p>
+            <p>choose your favorite programming language</p>
+            <input type="radio" id="C" value="C" name="fav_lang">
+            <label for="C">C</label>   <br>
+            <input type="radio" id="Java" value="Java" name="fav_lang">
+            <label for="Java">Java</label><br>
+            <input type="radio" id="Python" value="Python" name="fav_lang">
+            <label for="Python">Python</label><br>
+            <p> I am comfortable with following technologies</p>
+            <input type="checkbox" id="Tech_1" name="Tech_1" value="React">
+            <label for="Tech_1">React</label><br>
+            <input type="checkbox" name="Tech_2" id="Tech_2" value="MongoDB">
+            <label for="Tech_2">MongoDB</label><br>
+            <input type="checkbox" name="Tech_3" id="Tech_3" value="TypeScript">
+            <label for="Tech_3" >TypeScript</label><br>
+            <label for="favcolor">Select your favorite color</label>
+            <input type="color" name="favcolor" id="favcolor" value="#ff0000"><br>
+            <label for="birthday">Enter your DOB</label>
+            <input type="date" id="birthday" name="birthday"><br>
+            <label for="myfile">Choose file:</label>
+            <input type="file" name="myfile" id="myfile"><br>
+            <label for="tnow">Select current time</label>
+            <input type="time" name="tnow" id="tnow">
+
+
+
+            <input  type="button" onclick="alert('Hello man')" value="click here"><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+
+        </form>
+    </body>
+</html>
